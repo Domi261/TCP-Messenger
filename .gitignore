@@ -1,0 +1,62 @@
+# Build-Ordner
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+
+# Benutzer- und IDE-Dateien
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio-Ordner
+.vs/
+.vscode/
+
+# Rider
+.idea/
+
+# Debug-/Release-/Architektur-Ordner
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# .NET-spezifisch
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.dbmdl
+
+# Paketdateien
+*.nupkg
+*.snupkg
+
+# Tests & Coverage
+TestResults/
+[Tt]est[Rr]esult*/
+*.coverage
+*.coveragexml
+*.vspx
+*.vspscc
+*.vsmdi
+*.pdb
+
+# Temp-Dateien
+~$*
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Logs
+*.log
+
+# Weitere Tools (optional)
+*.resharper
+_ReSharper*/
+*.DotSettings.user
